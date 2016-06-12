@@ -1,6 +1,7 @@
 /**
  * Created by zhangsiyuan on 16/6/12.
  */
+//栈
 function Stack() {
   var item = []
   this.push = function (el) {

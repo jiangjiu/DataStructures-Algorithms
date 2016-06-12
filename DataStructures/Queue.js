@@ -1,32 +1,32 @@
 // 队列
 function Queue() {
-  var item = []
+  var items = []
 
   this.enQueue = function (el) {
-    item.push(el)
+    items.push(el)
   }
 
   this.deQueue = function () {
-    return item.shift()
+    return items.shift()
   }
 
   this.front = function () {
-    return item[0]
+    return items[0]
   }
 
   this.isEmpty = function () {
-    return !item.length
+    return !items.length
   }
 
   this.size = function () {
-    return item.length
+    return items.length
   }
 
   this.clear = function () {
-    item = []
+    items = []
   }
 
   this.print = function () {
-    console.log(item.toString())
+    console.log(items.toString())
   }
 }

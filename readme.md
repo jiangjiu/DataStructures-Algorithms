@@ -4,4 +4,4 @@
 
 # 刷一下 LeetCode 的入门题^_^
 
-目标是干掉easy、hard！~
+目标是干掉easy、hard ！~
